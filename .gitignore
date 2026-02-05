@@ -1,0 +1,64 @@
+# Binaries
+gateway
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+*.test
+*.out
+go.work
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Project specific
+.sisyphus/evidence/*
+!.sisyphus/evidence/.gitkeep
+
+# Model files (large)
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
